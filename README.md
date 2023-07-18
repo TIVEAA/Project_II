@@ -60,4 +60,7 @@ After analysing all datasets, it can be deducted:
 - There are **63** different stores located in Turkey;
 - The sales dataset includes **daily** sales/revenue per store from January 2017 to September 2019;
 - Total products and total revenue vary between stores:
+  ![sdsdsds](Documentação/Total_revenue.png)
+  
+  
   
