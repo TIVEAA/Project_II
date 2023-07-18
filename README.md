@@ -72,6 +72,7 @@ After analysing all datasets, it can be deducted:
 
 In order to reduce the number of rows (8886058), sales dataset has been grouped to weekly revenue (8610 rows).  
 
+![](Documentação/Weekly_revenue.png) 
   
   
   
