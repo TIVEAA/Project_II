@@ -61,6 +61,8 @@ After analysing all datasets, it can be deducted:
   ![Stores with their sales](Documentação/Number_stores.jpg)
   
 - The sales dataset includes **daily** sales/revenue per store from January 2017 to September 2019;
+  ![](Documentação/Daily_revenue.png)
+  
 - Total products and total revenue vary between stores:
   
   ![](Documentação/Total_products.png)
@@ -68,6 +70,7 @@ After analysing all datasets, it can be deducted:
 
 **2) Data Preparation**
 
+In order to reduce the number of rows (8886058), sales dataset has been grouped to weekly revenue (8610 rows).  
 
   
   
