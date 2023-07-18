@@ -58,10 +58,16 @@ As mentioned above, there are 3 datasets with a csv extension:
 
 After analysing all datasets, it can be deducted:
 - There are **63** different stores located in Turkey;
+
+  
 - The sales dataset includes **daily** sales/revenue per store from January 2017 to September 2019;
 - Total products and total revenue vary between stores:
+  
   ![](Documentação/Total_products.png)
   ![](Documentação/Total_revenue.png)
+
+**2) Data Preparation**
+
 
   
   
