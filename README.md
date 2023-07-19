@@ -104,6 +104,15 @@ After analysing all datasets, it can be deducted:
 
     2. Arima (auto-arima)
 
+       An ARIMA model is characterized by 3 terms: p, d, q:
+
+       - p is the order of the AR term
+       - q is the order of the MA term
+       - d is the number of differencing required to make the time series stationary
+      
+       Auto arima uses a stepwise approach to search multiple combinations of p,d,q parameters and chooses the best model that has the least AIC.
+
+       
        
   
   
