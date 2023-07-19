@@ -185,8 +185,12 @@ After analysing all datasets, it can be deducted:
 
     Finally, the forecast revenue for the next 5 weeks is shown below:
 
+    ![](Documentação/Forecast_S0003.PNG)
+    ![](Documentação/Forecast_S0023.PNG)
+    ![](Documentação/Forecast_S0038.PNG)
+    ![](Documentação/Forecast_S0143.PNG)
     
-    
+        
        
        
 
