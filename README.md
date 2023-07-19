@@ -114,7 +114,7 @@ After analysing all datasets, it can be deducted:
 
        ![](Documentação/Arima.PNG)
 
-       Considered parameters:
+       Parameters considered:
          - y: the time-series to which to fit the ARIMA estimator (Revenue column)
          - seasonal: False (not considering seasonality)
          - suppress_warnings: True
