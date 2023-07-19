@@ -141,6 +141,8 @@ After analysing all datasets, it can be deducted:
  
        ARIMAX is an extension of the traditional ARIMA model that allows for the inclusion of additional variables, known as exogenous variables, which may have an effect on the time series being forecaste.
 
+       ![](Documentação/Arimax_exogenous_variables.PNG)
+       
        The exogenous variables considered in this study are:
 
          - Promo_discount_2: boolean variable, where value 1 means there was at least one promo in that week;
@@ -155,10 +157,12 @@ After analysing all datasets, it can be deducted:
 
        ![](Documentação/Arimax_S0003.PNG)
 
-     4. Sarimax
+     5. Sarimax
  
         Introducing seasonality into arimax.
 
+        ![]()
+        
         Parameters considered:
           - 
        
