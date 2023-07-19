@@ -87,7 +87,9 @@ After analysing all datasets, it can be deducted:
 
   Before we start modelling, we need to split our dataset into training and test.:
 
-  ![](Documentação/train_test.png)
+  ![](Documentação/Train_test_v2.png)
+
+  
 
   
   
