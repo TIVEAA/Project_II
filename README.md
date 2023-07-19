@@ -81,6 +81,15 @@ After analysing all datasets, it can be deducted:
 
   ![](Documentação/Seasonal_decomposition.png)
   
+  There is a steady upward trend over the years and a clear seasonal pattern.
+
+- Train vs. Test
+
+  Before we start modelling, we need to split our dataset into training and test.:
+
+  ![](Documentação/train_test.png)
+
+  
   
 
   
