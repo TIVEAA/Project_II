@@ -157,7 +157,7 @@ After analysing all datasets, it can be deducted:
 
        ![](Documentação/Arimax_S0003.PNG)
 
-     5. Sarimax
+     4. Sarimax
  
         Introducing seasonality into arimax.
 
@@ -171,6 +171,9 @@ After analysing all datasets, it can be deducted:
 
         ![](Documentação/Sarimax_S0143.PNG)
 
+  **4) Evaluation**
+
+    
         
        
        
