@@ -99,7 +99,8 @@ After analysing all datasets, it can be deducted:
     1. Simple average
     
        All future values are equal to the average of the historical data. 
-  
+
+       Simple average vs test set:
        ![](Documentação/Average.PNG)
 
     2. Arima (auto-arima)
@@ -133,6 +134,24 @@ After analysing all datasets, it can be deducted:
        Note: All the best parameters of auto-arima are stored in a dictionary:
           ![](Documentação/Model_arima.PNG)
 
+       Arima vs test set:
+       ![](Documentação/Arima_S0038.PNG)
+
+    3. Arimax
+ 
+       ARIMAX is an extension of the traditional ARIMA model that allows for the inclusion of additional variables, known as exogenous variables, which may have an effect on the time series being forecaste.
+
+       The exogenous variables considered in this study are:
+
+         - Promo_discount_2: boolean variable, where value 1 means there was at least one promo in that week;
+         - Is_holiday: boolean variable, where value 1 means there was at least one national holiday in that week;
+         - Month: number of the month
+
+       Comparison between ARIMA and ARIMAX:
+
+       
+
+       
        
   
 
