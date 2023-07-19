@@ -161,10 +161,12 @@ After analysing all datasets, it can be deducted:
  
         Introducing seasonality into arimax.
 
-        ![]()
+        ![](Documentação/Sarimax_variables.PNG)
         
         Parameters considered:
-          - 
+          - m: The period for seasonal differencing, m refers to the number of periods in each season (m = 52 weeks)
+          - D: The order of the seasonal differencing (D = 1)
+        
        
        
 
