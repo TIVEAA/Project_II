@@ -102,6 +102,8 @@ After analysing all datasets, it can be deducted:
   
        ![](Documentação/Average.PNG)
 
+    2. Arima (auto-arima)
+
        
   
   
