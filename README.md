@@ -79,8 +79,9 @@ After analysing all datasets, it can be deducted:
   A time series can exhibit a variety of patterns. It is helpful to split the time series into several components, each representing a pattern category. 
   Below is shown the seasonal composition for Store ID S0003:
 
+  ![](Documentação/Seasonal_decomposition.png)
   
-
+  
 
   
   
