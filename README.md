@@ -173,8 +173,14 @@ After analysing all datasets, it can be deducted:
 
   **4) Evaluation**
 
+    RMSE comparison for 4 stores can be seen below:
+  
+    ![](Documentação/RMSE_comparison.PNG) 
+
+    After analyzing all RMSE values it can be
+
     
-        
+    
        
        
 
