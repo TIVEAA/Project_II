@@ -169,7 +169,9 @@ After analysing all datasets, it can be deducted:
 
         Sarimax vs test set:
 
-        ![]()
+        ![](Documentação/Sarimax_S0143.PNG)
+
+        
        
        
 
