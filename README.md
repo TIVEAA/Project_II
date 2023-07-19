@@ -130,8 +130,10 @@ After analysing all datasets, it can be deducted:
          - max_q: default = 5 (The maximum value of q, inclusive)
          - test: default = 'kpss' (Type of unit root test to use in order to detect stationarity if stationary is False and d is None: Default is ‘kpss’ (Kwiatkowski–Phillips–Schmidt–Shin)
 
-       Note: All the best parameters   
-          
+       Note: All the best parameters of auto-arima are stored in a dictionary:
+          ![](Documentação/Model_arima.PNG)
+
+       
   
 
   
