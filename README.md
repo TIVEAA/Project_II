@@ -94,13 +94,15 @@ After analysing all datasets, it can be deducted:
 
   **3) Modeling**
 
-  4 different models have been used to forecast revenue for the next 5 weeks:
+  Four different models have been used to forecast revenue for the next 5 weeks:
 
     1. Simple average
     
-    All future values are equal to the average of the historical data. 
+       All future values are equal to the average of the historical data. 
   
+       ![](Documentação/Average.PNG)
 
+       
   
   
 
