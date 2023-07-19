@@ -114,9 +114,23 @@ After analysing all datasets, it can be deducted:
 
        ![](Documentação/Arima.PNG)
 
-       
-       
-  
+       Considered parameters:
+         - y: the time-series to which to fit the ARIMA estimator (Revenue column)
+         - seasonal: False (not considering seasonality)
+         - suppress_warnings: True
+         - random_state: Equals to 20 (Ensures replicable testing and results)
+         - stepwise: default = True (Whether to use the stepwise algorithm outlined in Hyndman and Khandakar (2008) to identify the optimal model parameters)
+         - method: default = 'lbfgs' (The method determines which solver from scipy.optimize is used - ‘lbfgs’ for limited-memory BFGS with optional box constraints)
+         - start_p: defalut = 2 (order (or number of time lags) of the auto-regressive (“AR”) model)
+         - start_q: default = 2 (order of the moving-average (“MA”) model)
+         - d: default=None (If None, the value will automatically be selected based on the results of the test (i.e., either the Kwiatkowski–Phillips–Schmidt–Shin, Augmented Dickey-Fuller or the 
+           Phillips–Perron test will be conducted to find the most probable value)
+         - max_p: default = 5 (The maximum value of p, inclusive)
+         - max_d: default = 2 (The maximum value of d, or the maximum number of non-seasonal differences)
+         - max_q: default = 5 (The maximum value of q, inclusive)
+         - test: default = 'kpss' (Type of unit root test to use in order to detect stationarity if stationary is False and d is None: Default is ‘kpss’ (Kwiatkowski–Phillips–Schmidt–Shin)
+
+          
   
 
   
