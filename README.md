@@ -190,7 +190,9 @@ After analysing all datasets, it can be deducted:
     ![](Documentação/Forecast_S0038.PNG)
     ![](Documentação/Forecast_S0143.PNG)
     
-        
+### Part II: PCA 
+
+  
        
        
 
