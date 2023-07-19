@@ -153,6 +153,14 @@ After analysing all datasets, it can be deducted:
 
        Arimax vs test set:
 
+       ![](Documentação/Arimax_S0003.PNG)
+
+     4. Sarimax
+ 
+        Introducing seasonality into arimax.
+
+        Parameters considered:
+          - 
        
        
 
