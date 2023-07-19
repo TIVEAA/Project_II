@@ -149,6 +149,11 @@ After analysing all datasets, it can be deducted:
 
        Comparison between ARIMA and ARIMAX:
 
+       ![](Documentação/Arima_vs_Arimax_2.PNG)
+
+       Arimax vs test set:
+
+       
        
 
        
