@@ -70,9 +70,18 @@ After analysing all datasets, it can be deducted:
 
 **2) Data Preparation**
 
-In order to reduce the number of rows (8886058), sales dataset has been grouped to weekly revenue (8610 rows).  
+- In order to reduce the number of rows (8886058), sales dataset has been grouped to weekly revenue (8610 rows).  
 
-![](Documentação/Weekly_revenue.png) 
+  ![](Documentação/Weekly_revenue.png)
+
+- Seasonal Decomposition
+
+  A time series can exhibit a variety of patterns. It is helpful to split the time series into several components, each representing a pattern category. 
+  Below is shown the seasonal composition for Store ID S0003:
+
+  
+
+
   
   
   
