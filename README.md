@@ -173,11 +173,17 @@ After analysing all datasets, it can be deducted:
 
   **4) Evaluation**
 
-    RMSE comparison for 4 stores can be seen below:
+    Let's evaluate the results for 4 stores: S0003, S0023, S0038 and S0143.
+  
+    RMSE comparison can be seen below:
   
     ![](Documentação/RMSE_comparison.PNG) 
 
-    After analyzing all RMSE values it can be
+    After analyzing all RMSE values, the number of stores vs best model can be plotted:
+
+    ![](Documentação/Stores_models.PNG) 
+
+    Finally, the forecast revenue for the next 5 weeks is shown below:
 
     
     
