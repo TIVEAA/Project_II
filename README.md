@@ -85,10 +85,20 @@ After analysing all datasets, it can be deducted:
 
 - Train vs. Test
 
-  Before we start modelling, we need to split our dataset into training and test.:
+  Before we start modelling, we need to split our dataset into training and test:
 
-  ![](Documentação/Train_test_v2.png)
+  - **Training**: 140 weeks
+  - **Test**: 4 weeks
+  
+  ![](Documentação/Train_test_v2.PNG)
 
+  **3) Modeling**
+
+  4 different models have been used to forecast revenue for the next 5 weeks:
+
+    1. Simple average
+    
+    All future values are equal to the average of the historical data. 
   
 
   
