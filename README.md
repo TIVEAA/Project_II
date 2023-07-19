@@ -112,6 +112,8 @@ After analysing all datasets, it can be deducted:
       
        Auto arima uses a stepwise approach to search multiple combinations of p,d,q parameters and chooses the best model that has the least AIC.
 
+       ![](Documentação/Arima.PNG)
+
        
        
   
