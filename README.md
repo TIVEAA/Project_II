@@ -190,9 +190,14 @@ After analysing all datasets, it can be deducted:
     ![](Documentação/Forecast_S0038.PNG)
     ![](Documentação/Forecast_S0143.PNG)
     
-### Part II: PCA 
+### Part II: PCA and Hierarchical clustering
 
-  
+  The idea of this study is to perform a dimensionality reduction by using PCA. Why? 
+  - Reduce the number of stores in future analyses;
+    - Identify stores that capture key patterns of variation
+  - Reduce processing time
+  - Reduce number of processing machines
+  - Facilitates data visualisation and identification of trends or patterns 
        
        
 
