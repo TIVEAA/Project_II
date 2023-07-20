@@ -202,7 +202,12 @@ After analysing all datasets, it can be deducted:
   Procedure to perform the anlysis:
     1. Prepare dataset
       - Use dataset with daily sales (Could have used weekly sales or total sales instead) 
-      - 
+          ![](Documentação/Daily_revenue_PCA.PNG) 
+      - Transpose dataset in order to have stores ID as features 
+          ![](Documentação/Transposed_dataset_PCA.PNG) 
+      - Data standardization
+          ![](Documentação/Standardization_PCA.PNG) 
+
     
   
   ![](Documentação/PC.PNG)
