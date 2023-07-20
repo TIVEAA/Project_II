@@ -200,14 +200,15 @@ After analysing all datasets, it can be deducted:
   - Facilitates data visualisation and identification of trends or patterns 
 
   Procedure to perform the anlysis:
-  - Prepare dataset:
+  1. Prepare dataset:
     - Use dataset with daily sales (Could have used weekly sales or total sales instead)
-        ![](Documentação/Daily_revenue_PCA.PNG) 
+      ![](Documentação/Daily_revenue_PCA.PNG)
     - Transpose dataset in order to have stores ID as features
-        ![](Documentação/Transposed_dataset_PCA.PNG) 
+      ![](Documentação/Transposed_dataset_PCA.PNG)
     - Data standardization
-        ![](Documentação/Standardization_PCA.PNG) 
-    2. Apply PCA 
+      ![](Documentação/Standardization_PCA.PNG)
+      
+  2. Apply PCA 
     
     
   
