@@ -233,8 +233,9 @@ After analysing all datasets, it can be deducted:
      
      The resulting clusters will represent groups of days that have similar revenue characteristics. This can help us identify patterns or trends in the daily revenue over time and potentially uncover insights about certain periods of high or low revenue, seasonality, or other patterns in the data.
 
-     Below is an example of a dendrogram with a cut line of 25 resulting in 4 clusters. 
-     ![](Documentação/Hierarchical_clustering.PNG) 
+     Below is an example of a dendrogram with a cut line of 25 resulting in 4 clusters.
+     
+       ![](Documentação/Hierarchical_clustering.PNG) 
 
        
        
