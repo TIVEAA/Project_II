@@ -216,13 +216,22 @@ After analysing all datasets, it can be deducted:
 
      By using the four principal components derived from PCA, we have reduced the dimensionality of the dataset while capturing the most important patterns of variation. These components can serve as input     variables for hierarchical clustering, allowing us to assess the similarity or dissimilarity between stores based on their revenue patterns.
 
+     Now that the number of components to be used has been selected, a correlation study can be carried out.
+     
      - Correlation matrix 
-     
-     If you use daily revenue as the input for clustering, each data point in your dataset will represent a specific day for each store. The clustering algorithm will then group similar days together based on their revenue patterns.
-     
-     For example, if you have data for multiple years and each row represents a specific day for a store, the clustering algorithm will consider the revenue values for each day across all stores and identify groups of days that exhibit similar revenue patterns.
+       ![](Documentação/Correlation_matrix.PNG) 
 
-The resulting clusters will represent groups of days that have similar revenue characteristics. This can help you identify patterns or trends in the daily revenue over time and potentially uncover insights about certain periods of high or low revenue, seasonality, or other patterns in the data.
+       High correlations between stores may be due to:
+         - Similar revenue trend over time
+         - Stores are located in the same city
+         - Stores belong to the same store type
+
+  3. Hierarchical clustering
+     If we use daily revenue as the input for clustering, each data point in the dataset will represent a specific day for each store. The clustering algorithm will then group similar days together based on their revenue patterns.
+     
+     The resulting clusters will represent groups of days that have similar revenue characteristics. This can help us identify patterns or trends in the daily revenue over time and potentially uncover insights about certain periods of high or low revenue, seasonality, or other patterns in the data.
+
+     
 
        
        
