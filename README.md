@@ -218,8 +218,9 @@ After analysing all datasets, it can be deducted:
 
      Now that the number of components to be used has been selected, a correlation study can be carried out.
      
-     - Correlation matrix 
-       ![](Documentação/Correlation_matrix.PNG) 
+     - Correlation matrix
+       
+         ![](Documentação/Correlation_matrix.PNG) 
 
        High correlations between stores may be due to:
          - Similar revenue trend over time
@@ -227,11 +228,13 @@ After analysing all datasets, it can be deducted:
          - Stores belong to the same store type
 
   3. Hierarchical clustering
+     
      If we use daily revenue as the input for clustering, each data point in the dataset will represent a specific day for each store. The clustering algorithm will then group similar days together based on their revenue patterns.
      
      The resulting clusters will represent groups of days that have similar revenue characteristics. This can help us identify patterns or trends in the daily revenue over time and potentially uncover insights about certain periods of high or low revenue, seasonality, or other patterns in the data.
 
-     ![]
+     Below is an example of a dendrogram with a cut line of 25 resulting in 4 clusters. 
+     ![](Documentação/Hierarchical_clustering.PNG) 
 
        
        
