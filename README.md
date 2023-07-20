@@ -11,8 +11,8 @@ Description:
 
 All the datasets used can be found below:
 
--
--
+- Cities: [Cities](Dataset/cities.csv) 
+- Product: [Product]()
 -
 
 The CRISP DM methodology has been used throughout the report:
