@@ -200,20 +200,18 @@ After analysing all datasets, it can be deducted:
   - Facilitates data visualisation and identification of trends or patterns 
 
   Procedure to perform the anlysis:
-  1. Prepare dataset:
-    - Use dataset with daily sales (Could have used weekly sales or total sales instead)
-      ![](Documentação/Daily_revenue_PCA.PNG)
-    - Transpose dataset in order to have stores ID as features
-      ![](Documentação/Transposed_dataset_PCA.PNG)
-    - Data standardization
-      ![](Documentação/Standardization_PCA.PNG)
-      
-  2. Apply PCA 
-    
-    
   
+  1. Prepare dataset:
+      - Use dataset with daily sales (Could have used weekly sales or total sales instead)
+      - Transpose dataset in order to have stores ID as features
+      - Data standardization
+            
+  2. Apply PCA
+     
   ![](Documentação/PC.PNG)
   
+
+  By using the four principal components derived from PCA, you have reduced the dimensionality of the dataset while capturing the most important patterns of variation. These components can serve as input variables    for hierarchical clustering, allowing you to assess the similarity or dissimilarity between stores based on their revenue patterns.
 
        
        
