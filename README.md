@@ -198,8 +198,15 @@ After analysing all datasets, it can be deducted:
   - Reduces processing time
   - Reduces number of processing machines
   - Facilitates data visualisation and identification of trends or patterns 
-       
+
+  Procedure to perform the anlysis:
+    1. Prepare dataset
+      - Use dataset with daily sales (Could have used weekly sales or total sales instead) 
+      - 
     
+  
+  ![](Documentação/PC.PNG)
+  
 
        
        
