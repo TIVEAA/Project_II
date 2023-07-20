@@ -208,10 +208,21 @@ After analysing all datasets, it can be deducted:
             
   2. Apply PCA
      
-  ![](Documentação/PC.PNG)
-  
+     The figure below shows the cumulative explained variance versus the number of components.  
+     ![](Documentação/PC.PNG)
 
-  By using the four principal components derived from PCA, you have reduced the dimensionality of the dataset while capturing the most important patterns of variation. These components can serve as input variables    for hierarchical clustering, allowing you to assess the similarity or dissimilarity between stores based on their revenue patterns.
+     The first principal component alone captures 53% of the total variance.
+     ![](Documentação/Explained_variance_ratio.PNG) 
+
+     By using the four principal components derived from PCA, we have reduced the dimensionality of the dataset while capturing the most important patterns of variation. These components can serve as input     variables for hierarchical clustering, allowing us to assess the similarity or dissimilarity between stores based on their revenue patterns.
+
+     - Correlation matrix 
+     
+     If you use daily revenue as the input for clustering, each data point in your dataset will represent a specific day for each store. The clustering algorithm will then group similar days together based on their revenue patterns.
+     
+     For example, if you have data for multiple years and each row represents a specific day for a store, the clustering algorithm will consider the revenue values for each day across all stores and identify groups of days that exhibit similar revenue patterns.
+
+The resulting clusters will represent groups of days that have similar revenue characteristics. This can help you identify patterns or trends in the daily revenue over time and potentially uncover insights about certain periods of high or low revenue, seasonality, or other patterns in the data.
 
        
        
